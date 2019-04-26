@@ -1,15 +1,120 @@
-<!<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Propaganda Assignment</title>
+    <style>
+      body{
+        color: white;
+        background-color: rgb(35, 35, 35);
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .title{
+        font-weight: 600;
+        line-height: 0.7;
+        text-align: center;
+      }
+      #subtitle{
+        font-weight: 400;
+        padding-bottom: 1%;
+        border-bottom: 2px solid white;
+      }
+      .poster{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        padding-bottom: 2%;
+        border-bottom: 2px solid white;
+        overflow: auto;
+      }
+      .poster p{
+        font-size: 1.4rem;
+      }
+      .image{
+        float: left;
+        padding-bottom: : 3%;
+        padding-right: 3%;
+      }
+      .image a{
+        display: block;
+        text-align: center;
+        color: white;
+        padding: 2%;
+      }
+      .image img{
+        display: block;
+        width: 25vw;
+      }
+      .image iframe{
+        display: block;
+        width: 25vw;
+        height: 25vh;
+      }
+      #footer{
+        margin: 1%;
+      }
+      #footer a{
+        display: block;
+        color: white;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Propaganda Assignment</h1>
-    <h2>By Tyler Rajotte</h2>
+    <h1 class="title" id="top">Propaganda Assignment</h1>
+    <h2 class="title" id="subtitle">By Tyler Rajotte</h2>
 
-    <h3>Fats for Explosives</h3>
-    <img src=>
+    <!-- 5 Year Plan -->
+    <div class="poster">
+      <h1>5 Year Plan - 1928</h3>
+      <div class="image">
+        <img src="./images/sovietplan.jpg"></img>
+        <a href="http://propagandamsjobe.weebly.com/soviet-union.html">Image Source</a>
+      </div>
+      <p>
+        MAIN BODY PARARAPH 1 MAIN BODY PARARAPH 1
+      </p>
+    </div>
+
+    <!-- Hidden Hitler Stamps -->
+    <div class="poster">
+      <h1>Hidden Hitler Stamps - 1943</h3>
+      <div class="image">
+        <img src="./images/hitlerstamp.jpeg"></img>
+        <a href="https://news.nationalgeographic.com/content/dam/news/2016/12/19/ww2-propaganda/05_propaganda.jpg">Image Source</a>
+      </div>
+      <p>
+        MAIN BODY PARARAPH 2
+      </p>
+    </div>
+
+    <!-- Scrap Happy Daffy -->
+    <div class="poster">
+      <h1>Scrap Happy Daffy - 1943</h3>
+      <div class="image">
+        <iframe src="https://www.youtube.com/embed/i_54y3B1ivk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.topcartoons.tv/scrap-happy-daffy/">Video Source</a>
+      </div>
+      <p>
+        MAIN BODY PARARAPH 2
+      </p>
+    </div>
+
+    <!-- Young Builders of Communism -->
+    <div class="poster">
+      <h1>Young Builders of Communism - 1930s</h3>
+      <div class="image">
+        <img src="./images/sovieteducation.jpg"></img>
+        <a href="http://propagandamsjobe.weebly.com/soviet-union.html">Image Source</a>
+      </div>
+      <p>
+        MAIN BODY PARARAPH 2
+      </p>
+    </div>
+
+    
+
+    <div id="footer"><a href="#top">Back to Top</a></div>
   </body>
 </html>
